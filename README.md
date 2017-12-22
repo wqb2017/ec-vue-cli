@@ -74,6 +74,7 @@ vue init username/repo my-project
 ## vscode 相关配置
 
 * [vscode 插件](https://github.com/wqb2017/vscode-plugins)
+* [vscode 下载](https://code.visualstudio.com/)
 
 ## 前端规范
 
