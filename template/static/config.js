@@ -1,12 +1,12 @@
 //接口请求地址
-var appHost = "192.168.9.86";
-var approot = "/platform";
+var appHost = "192.168.9.455454";
+var approot = "/aaaaa";
 
 //文件查看服务器地址
-var imgHost = "192.168.9.86";
-var imgroot = "/stif_fs/image";
-var imgType = "stif_img";
+var imgHost = "192.168.9.455454";
+var imgroot = "/aaaaa/image";
+var imgType = "aaaaa";
 
 //文件上传服务器地址
-var upClientHost = "192.168.9.86";
-var upClientRoot = "/stif_fs/upClient";
+var upClientHost = "192.168.9.455454";
+var upClientRoot = "/aaaaa/upClient";
