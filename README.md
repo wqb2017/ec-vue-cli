@@ -6,7 +6,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ```bash
 $ npm install -g vue-cli
-$ vue init wqb2017/ec-vue-cli-tpl my-project-name
+$ vue init wqb2017/ec-vue-cli my-project-name
 $ cd my-project-name
 $ npm install
 $ npm run dev
