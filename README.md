@@ -78,4 +78,4 @@ vue init username/repo my-project
 
 ## 前端规范
 
-* [dosc](https://github.com/wqb2017/ec-vue-cli-tpl/tree/master/template/dosc)
+* [dosc](https://github.com/wqb2017/ec-vue-cli/tree/master/template/dosc)
