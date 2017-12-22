@@ -1,0 +1,9 @@
+{
+  "name": "vue-cli-template-webpack",
+  "version": "1.2.7",
+  "license": "MIT",
+  "description": "A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.",
+  "devDependencies": {
+    "vue-cli": "^2.8.1"
+  }
+}

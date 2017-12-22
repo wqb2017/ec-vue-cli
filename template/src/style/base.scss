@@ -1,0 +1,6 @@
+@for $i from 1 through 100 {
+  .ec-col-#{$i} {
+    float: left;
+    width: 100%/$i;
+  }
+}
