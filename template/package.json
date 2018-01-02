@@ -11,6 +11,7 @@
     "dll": "node build/build-dll.js"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "vue": "^2.5.0",
     "vue-router": "^3.0.0"
   },
