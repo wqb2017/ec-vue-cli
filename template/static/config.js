@@ -1,3 +1,4 @@
+/* eslint-disable */
 //接口请求地址
 var appHost = "192.168.9.455454";
 var approot = "/aaaaa";
