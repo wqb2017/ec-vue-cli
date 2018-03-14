@@ -2,9 +2,27 @@
  * @Author: WangQiBiao
  * @Date: 2018-02-28 10:25:07
  * @Last Modified by: WangQiBiao
- * @Last Modified time: 2018-03-14 11:11:16
+ * @Last Modified time: 2018-03-14 11:29:11
  */
 
+/**
+ * 平台标识【用于区别同一名下设置和获取不同cookie值，解决同一浏览器同一域名获取信息错乱bug】
+ */
+let PLATFORM_FLAG = 'platform_';
+/**
+ * 浏览器是否禁用cookie
+ * @param return 返回布尔值标识是否禁用，true禁用
+ */
+function _browserIsDisableCookie() {
+  let isCookie = document.cookie || navigator.cookieEnabled;
+  console.log(isCookie);
+  if (!isCookie) {
+    throw 'cookie被禁用';
+    return false;
+  } else {
+    return true;
+  }
+}
 export default {
   localStorage: {
     /**
@@ -38,23 +56,6 @@ export default {
     },
   },
   cookie: {
-    /**
-     * 平台标识【用于区别同一名下设置和获取不同cookie值，解决同一浏览器同一域名获取信息错乱bug】
-     */
-    PLATFORM_FLAG: 'platform_',
-    /**
-     * 浏览器是否禁用cookie
-     * @param return 返回布尔值标识是否禁用，true禁用
-     */
-    _browserIsDisableCookie: function(params) {
-      let isCookie = document.cookie || navigator.cookieEnabled;
-      if (!isCookie) {
-        throw 'cookie被禁用';
-        return false;
-      } else {
-        return true;
-      }
-    },
     /**
      * 获取
      * @param {string} name 获取cookie名称
