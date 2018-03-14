@@ -12,22 +12,12 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 #app {
   width: 100%;
   height: 100%;
   min-width: 1280px;
   overflow-y: hidden;
-}
-
-.fade-enter-active,
-.fade-leave-active {
-  transition: all 0.2s ease;
-}
-
-.fade-enter,
-.fade-leave-active {
-  opacity: 0;
 }
 </style>
 
