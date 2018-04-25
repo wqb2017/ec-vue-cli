@@ -2,20 +2,19 @@
  * @Author: WangQiBiao
  * @Date: 2018-02-28 10:25:07
  * @Last Modified by: WangQiBiao
- * @Last Modified time: 2018-03-14 11:29:11
+ * @Last Modified time: 2018-04-25 18:15:32
  */
 
 /**
  * 平台标识【用于区别同一名下设置和获取不同cookie值，解决同一浏览器同一域名获取信息错乱bug】
  */
-let PLATFORM_FLAG = 'platform_';
+let PLATFORM_FLAG = window.PLATFORM_CONFIG.PLATFORM_FLAG;
 /**
  * 浏览器是否禁用cookie
  * @param return 返回布尔值标识是否禁用，true禁用
  */
 function _browserIsDisableCookie() {
   let isCookie = document.cookie || navigator.cookieEnabled;
-  console.log(isCookie);
   if (!isCookie) {
     throw 'cookie被禁用';
     return false;
@@ -31,7 +30,7 @@ export default {
      * @return {string} localStorage值
      */
     get: function(name) {
-      return localStorage.getItem(name);
+      return localStorage.getItem(PLATFORM_FLAG + name);
     },
     /**
      * 设置
@@ -39,14 +38,14 @@ export default {
      * @param {string} value 设置localStorage值
      */
     set: function(name, value) {
-      localStorage.setItem(name, value);
+      localStorage.setItem(PLATFORM_FLAG + name, value);
     },
     /**
      * 删除
      * @param {string} name 删除localStorage名称
      */
     remove: function(name) {
-      localStorage.removeItem(name);
+      localStorage.removeItem(PLATFORM_FLAG + name);
     },
     /**
      * 清除所有localStorage
