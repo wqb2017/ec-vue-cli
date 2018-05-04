@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "ip": "^1.1.5",
     "vue": "^2.5.0",
     "vue-router": "^3.0.0"
   },
