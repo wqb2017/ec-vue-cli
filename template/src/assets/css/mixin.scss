@@ -1,5 +1,11 @@
+//省略号
+@mixin omit{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 //清除浮动
-@mixin clear_box {
+@mixin clearfix{
   zoom: 1;
   &:after {
     content: ".";
