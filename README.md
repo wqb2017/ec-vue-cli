@@ -59,6 +59,11 @@ $ npm run dev
       |-static //第三方插件
 ```
 
+## px 转 rem攻略
+
+* [postcss-pxtorem](https://github.com/cuth/postcss-pxtorem)
+
+
 ## 可能存在的问题
 
 * node-sass 安装不成功
