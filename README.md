@@ -16,15 +16,17 @@ $ npm run dev
 
 1. 主技术栈
 
-* vue
-* vue-router
-* vuex
-* es6
+* [vue](https://github.com/vuejs/vue)
+* [vue-router](https://github.com/vuejs/vue-router)
+* [vuex](https://github.com/vuejs/vuex)
+* [es6](https://github.com/bevacqua/es6)
+* [es6 中文文档](https://github.com/ruanyf/es6tutorial)
 
 2. UI 技术栈
 
-* pc 端 element-ui
-* 移动端 vant|mint-ui
+* [pc 端 element-ui](https://github.com/ElemeFE/element)
+* [移动端 mint-ui](https://github.com/ElemeFE/mint-ui)
+* [移动端 vant](https://github.com/youzan/vant)
 
 ## 前端规范
 
@@ -44,6 +46,9 @@ $ npm run dev
     |-src
       |-components //公共组件
       |-assets //公共模块
+      |-directives //自定义指令
+      |-filters //过滤器
+      |-mixins //mixins
       |-router
       |-store
       |-views
@@ -58,16 +63,3 @@ $ npm run dev
           |-images
       |-static //第三方插件
 ```
-
-## px 转 rem攻略
-
-* [postcss-pxtorem](https://github.com/cuth/postcss-pxtorem)
-
-
-## 可能存在的问题
-
-* node-sass 安装不成功
-
-  解决办法：
-
-$ cnpm install node-sass --save-dev

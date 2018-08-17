@@ -16,15 +16,17 @@ $ npm run dev
 
 1. 主技术栈
 
-* vue
-* vue-router
-* vuex
-* es6
+* [vue](https://github.com/vuejs/vue)
+* [vue-router](https://github.com/vuejs/vue-router)
+* [vuex](https://github.com/vuejs/vuex)
+* [es6](https://github.com/bevacqua/es6)
+* [es6 中文文档](https://github.com/ruanyf/es6tutorial)
 
 2. UI 技术栈
 
-* pc 端 element-ui
-* 移动端 vant|mint-ui
+* [pc 端 element-ui](https://github.com/ElemeFE/element)
+* [移动端 mint-ui](https://github.com/ElemeFE/mint-ui)
+* [移动端 vant](https://github.com/youzan/vant)
 
 ## 前端规范
 
