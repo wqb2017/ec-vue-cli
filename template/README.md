@@ -44,6 +44,9 @@ $ npm run dev
     |-src
       |-components //公共组件
       |-assets //公共模块
+      |-directives //自定义指令
+      |-filters //过滤器
+      |-mixins //mixins
       |-router
       |-store
       |-views
