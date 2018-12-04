@@ -5,5 +5,6 @@
   "description": "A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.",
   "devDependencies": {
     "vue-cli": "^2.8.1"
-  }
+  },
+  "dependencies": {}
 }
